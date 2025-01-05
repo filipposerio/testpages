@@ -1,0 +1,12 @@
+.cards {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    margin-top: 10px;
+    }
+

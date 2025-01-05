@@ -1,0 +1,57 @@
+/* Stile per la griglia */
+.grid-container {
+    display: flex;
+    flex-direction: column;  /* Layout verticale per la griglia */
+    gap: 30px;  /* Spazio tra gli elementi (funziona se flex-direction è colonna) */
+    padding-left: 15%; /* Padding a sinistra per spaziatura */
+}
+
+/* Stile per ogni elemento della lista */
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;  /* Aggiungi uno spazio di 30px sotto ogni elemento */
+    position: relative;
+    /*ground-color: lightgray;*/
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    /*padding-left:25%;*/
+}
+
+/* Immagine a sinistra */
+.grid-item .image {
+    width: 150px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-right: 2px solid #ddd;
+}
+
+/* Contenitore del link */
+.grid-item .link-container {
+    flex-grow: 1;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Stile del link */
+.grid-item .link {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.grid-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
