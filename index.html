@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- Definizione del set di caratteri e compatibilità per la visualizzazione sui dispositivi mobili -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titolo della pagina -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index3.css">
+    <!--link rel="stylesheet" href="style.css"-->
+    <!--link rel="stylesheet" href="gridcontainer.css"-->
+    <link rel="stylesheet" href="cardcontainer.css">  
+    <link rel="stylesheet" href="timeline.css">
+    <link rel="stylesheet" href="articoli.css">
+
+</head>
+<body >
+<!-- Header della pagina con menu di navigazione -->
+<header  style="width: 100%;" >
+    <!-- Barra superiore con messaggio informativo -->
+    <div class="top-bar text-white text-center">
+        <p>Sviluppo di una pagina web per il download dei report di sostenibilità di un’impresa del settore terziario</p>
+    </div>
+    <!-- Menu con logo dell'azienda e link di navigazione -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="immagini/logo.svg" width="30" height="30" alt="">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" >Gruppo ENEL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#strategia" >Strategia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#modello" >Modello</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bilanci" >Reports (2022-2010)</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--aside>
+    <p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside-->
+
+<!-- Contenuto principale della pagina -->
+<section class="container mt-5 mb-5 content-section " id="home"  >
+    <!--p><img class="flex" style="height: auto"src="immagini/carousel/sviluppo-sostenibile.webp" alt="obiettivi"></p-->
+    <article>
+        <h1>Sostenibilità</h1>
+        La sostenibilità è il motore del nostro modello di business e della nostra crescita. 
+        <br>
+        Lavoriamo insieme agli stakeholder per sviluppare un percorso di transizione che sia giusto e inclusivo
+        <br>
+        Il contesto globale in cui il Gruppo si trova a operare è stato
+caratterizzato negli ultimi 12 mesi da eventi concatenati che
+hanno provocato turbolenze a tutti i livelli.
+<br>
+Il percorso verso il raggiungimento degli obiettivi di sviluppo sostenibile delle Nazioni Unite è significativamente
+indietro, 
+<br>
+Clima, diritti umani e transizione giusta sono priorità d’azione a livello globale. 
+<br>
+Cresce, inoltre, l’attenzione sui temi legati alla natura e
+in particolare alla biodiversità. 
+<br>
+La digitalizzazione, guidata dall’intelligenza artificiale, offre
+opportunità e sfide, suscitando risposte dai regolatori, ma
+solleva anche preoccupazioni riguardo all’etica 
+<br>
+Infine, la comunicazione obbligatoria in materia di sostenibilità, guidata dalla CSRD (Corporate Social Responsibility Directive) europea e dall’International Sustainability
+Standard Board, si sta imponendo in maniera progressiva
+a livello globale
+        Nei Paesi in cui è presente, Enel riconosce l’importanza
+di costruire relazioni solide e positive con tutti
+gli stakeholder, dalle comunità locali ai governi; il
+dialogo costante con queste realtà rende possibile la
+realizzazione di progetti che rispondono a priorità ed
+esigenze comuni e permettono la creazione di valore
+sostenibile e condiviso.
+    </article>
+    <footer style="width: 100%; background-color: hsla(141, 76%, 79%, 0.784)">
+        <hr>
+    </footer>
+</section>
+
+<section class="container mt-5 mb-5 content-section" id="slideshow" background="\immagini\sfondo.jpg">
+    <!--img src="immagini/carousel/sfondo.jpg"><img-->
+ <!-- Slideshow container -->
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides ">
+        <div class="numbertext">1 / 4</div>
+        <img src="immagini/carousel/1.avif" style="width:100%">
+        <div class="text">Foto di Jeremy Bishop su Unsplash</div>
+        </div>
+    
+        <div class="mySlides ">
+        <div class="numbertext">2 / 4</div>
+        <img src="immagini/carousel/2.avif" style="width:100%">
+        <div class="text">Caption Two</div>
+        </div>
+    
+        <div class="mySlides ">
+        <div class="numbertext">3 / 4</div>
+        <img src="immagini/carousel/3.avif" style="width:100%">
+        <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides ">
+            <div class="numbertext">4 / 4</div>
+            <img src="immagini/carousel/4.avif" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div> 
+    <footer style="width: 100%; background-color: hsla(141, 76%, 79%, 0.784)">
+        <hr>
+    </footer>
+</section> 
+<section class="container mt-5 mb-5 content-section" id="strategia" >
+    <!-- Descrizione del Gruppo Hera e del suo impatto -->
+    <article >
+        <h1>Strategia</h1>
+        <br>Al centro della nostra strategia per il progresso sostenibile c’è l’ambizione di contribuire a costruire una società più equa e inclusiva lungo l’intera catena del valore,
+        <br>proteggendo l’ambiente in cui viviamo e creando opportunità per il futuro per l’Azienda stessa e per i nostri stakeholder, senza lasciare indietro nessuno.       
+        <br>
+        <br>
+        <h5>La strategia del Gruppo Enel</h5>
+        Si basa su tre pilastri:
+        <br>
+        • Redditività, flessibilità e resilienza mediante un’allocazione
+        del capitale selettiva
+        <br>
+        • Efficienza ed efficacia
+        <br>
+        • Sostenibilità finanziaria e ambientale.
+        <br>
+        <br>
+        <h5>Ambizione emissioni zero e transizione giusta</h5>
+        Una roadmap di decarbonizzazione che copre sia le emissioni
+        dirette sia quelle indirette lungo tutta la catena del valore.
+        Il Gruppo si è impegnato, inoltre, affinché la transizione
+        energetica sia giusta, lavorando in maniera integrata sia sulla
+        dimensione ambientale sia su quella sociale, affinché nessuno
+        sia lasciato indietro.
+        <br>
+        <br>
+       <h5>Verso il miglioramento continuo</h5>
+        Un impegno quotidiano, individuale e collettivo, che coinvolge
+        persone, comunità, fornitori, imprese, industrie e istituzioni,
+        facendo leva su innovazione, digitalizzazione, economia
+        circolare e finanza Sustainability-Linked.
+    </article>
+    <footer style="width: 100%; background-color: hsla(141, 76%, 79%, 0.784)">
+        <hr>
+    </footer>
+</section>
+
+<section class="container mt-5 mb-5 content-section" id="modello">
+    <article >
+        <h1>Modello di business</h1>
+        <p>
+        <br>Enel si conferma leader nel settore energetico, presente in 43 Paesi e in cinque continenti, integrato verticalmente lungo l’intera catena del valore.
+        <br>
+        Il modello di business è focalizzato sulla sostenibilità e costruito per cogliere le opportunità che arrivano dal contesto
+        in continua evoluzione. Declina come le unità organizzative
+        dell’Azienda, legate ai tre principali business di riferimento
+        (Generazione, Distribuzione e Vendita ai clienti), debbano
+        operare per cogliere tutti i possibili vantaggi legati ai trend
+        emergenti e in particolare alla transizione energetica e digitale, e per poter gestire efficacemente tutti i rischi legati al
+        contesto del settore energetico in rapido mutamento.
+        </p>
+    </article>
+    <footer style="width: 100%; background-color: hsla(141, 76%, 79%, 0.784)">
+        <hr>
+    </footer>
+</section>
+<section>
+    <article>
+       
+    </article>
+</section>
+<section id="bilanci" class="container mt-5 mb-5 content-section">
+    <!--article class="card-container"-->
+    <article >
+        <h1>I Reports </h1>
+        <!-- I bilanci verranno generati dinamicamente qui -->
+    <div class="timeline" id="reporttime">
+    </div>
+    </article>
+</section>
+
+<footer style="width: 100%;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="immagini/logo.svg" width="30" height="30" alt="">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" >Gruppo ENEL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sostenibilità" >Sostenibilità</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bilanci" >Reports (2022-2010)</a>
+                    <img >
+                </li>
+            </ul>
+        </div>
+    </nav> 
+</footer>
+
+</body>
+<script src="./bilanci/frasi.js"></script>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      //showSlides(slideIndex = n);
+    }
+        
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+
+
+    function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+    // Funzione per generare dinamicamente la griglia dei bilanci
+function generateBilanci() {
+    const bilanciContainer = document.getElementById("bilanci"); // Il contenitore principale per i bilanci
+
+    // Anni dei bilanci da generare (dal 2000 al 2023)
+    const anni = [];
+    for (let i = 2023; i >= 2010; i--) {
+        anni.push(i);
+    }
+
+    // Aggiungiamo gli elementi dinamicamente
+    anni.forEach((anno, index) => {
+        // Creiamo un elemento grid-item
+        const gridItem = document.createElement("div");
+        gridItem.classList.add("card-container");
+
+        // Aggiungiamo un'immagine di sfondo per l'anno
+        const imageDiv = document.createElement("div");
+        imageDiv.classList.add("card-image");
+        
+        // Debug: Mostra il percorso dell'immagine
+        //console.log(`Loading image for year ${anno}: immagine/${anno}.jpg`);
+   
+        imageDiv.style.backgroundImage = `url('immagini/${anno}.jpg')`; // L'immagine per l'anno
+        gridItem.appendChild(imageDiv); // Aggiungiamo l'immagine all'item
+
+        // Creiamo il contenitore per il link a destra
+        const linkContainer = document.createElement("div");
+        linkContainer.classList.add("cards");
+
+        // Creiamo il link per il bilancio
+        const link = document.createElement("a");
+        link.href = `bilanci/${anno}.pdf`;
+        link.classList.add("link");
+        link.textContent = `${anno}`;
+
+        // Aggiungiamo il link al linkContainer
+        linkContainer.appendChild(link);
+        gridItem.appendChild(linkContainer); // Aggiungiamo il contenitore del link all'item
+
+        // Aggiungiamo l'item alla griglia
+        bilanciContainer.appendChild(gridItem);
+
+        // Aggiungi la classe 'show' per l'effetto di transizione dopo un certo ritardo
+        setTimeout(() => {
+            gridItem.classList.add("show");
+        }, index * 250); // Ritardo per ogni elemento
+    });
+}
+//generateBilanci();
+function showSection(sectionId) {
+        // Nascondi tutte le sezioni
+        const sections = document.querySelectorAll('.content-section');
+        sections.forEach(section => {
+            section.style.display = 'none';
+        });
+
+        // Mostra solo la sezione selezionata
+        const selectedSection = document.getElementById(sectionId);
+        if (selectedSection) {
+            selectedSection.style.display = 'block';
+
+            // Se la sezione mostrata è "bilanci", rigenera l'elenco dei bilanci
+            if (sectionId === 'bilanci') {
+                generateBilanci();
+            }
+            if (sectionId === 'sostenibilita') {
+                document.getElementById(sectionId).classList.add("show")
+            } 
+            if (sectionId === 'inizio') {
+                document.getElementById(testocentrale).innerHTML= "PIPPO"
+            } 
+        }
+    }
+    
+    // Funzione per generare dinamicamente la griglia dei bilanci
+function generateBilanciTimeline() {
+    vFrasi = lFrasi
+    const bilanciContainer = document.getElementById("reporttime"); // Il contenitore principale per i bilanci
+
+    // Anni dei bilanci da generare (dal 2000 al 2023)
+    const anni = [];
+    for (let i = 2023; i >= 2010; i--) {
+        anni.push(i);
+    }
+
+    // Aggiungiamo gli elementi dinamicamente
+    anni.forEach((anno, index) => {
+        // Creiamo un elemento grid-item
+        console.log(anno)
+        const Tcontainer = document.createElement("div");
+        Tcontainer.classList.add("Tcontainer");
+        console.log(anno % 2)
+        // stabiliamo se il container deve essere posto a destra oppure a sinistra
+        // in uno schemro per smartphone verranno comunque scritti uno sotto l'altro
+        if ((anno % 2) > 0) {
+            Tcontainer.classList.add("left");
+        }
+        else {
+            Tcontainer.classList.add("right");
+        }
+        // aggiungiamo un div per il content
+        const Tcontent = document.createElement("div");
+        Tcontent.classList.add("content")
+        // aggiungiamo un div per il link al report
+        const Treport = document.createElement("div");
+        const link = document.createElement("a");
+        link.href = `bilanci/${anno}.pdf`;
+        //link.classList.add("link");
+        link.innerHTML = `<h1>${anno}</h1>`;
+        Treport.appendChild(link)
+        const par = document.createElement("p");
+        console.log(vFrasi)
+        par.textContent = vFrasi[index].testo == undefined ? "nessun testo" : vFrasi[index].testo
+        Treport.appendChild(par)
+        //colleghiamo i div appena creati
+        Tcontent.appendChild(Treport)
+
+        Tcontainer.appendChild(Tcontent)
+   
+
+
+        // Aggiungiamo l'item alla griglia
+        bilanciContainer.appendChild(Tcontainer);
+
+        // Aggiungi la classe 'show' per l'effetto di transizione dopo un certo ritardo
+       /*
+        setTimeout(() => {
+            gridItem.classList.add("show");
+        }, index * 250); // Ritardo per ogni elemento
+
+        */
+    });
+}
+generateBilanciTimeline();
+</script>    
+</html>
