@@ -397,7 +397,8 @@ function generateBilanciTimeline() {
         // aggiungiamo un div per il link al report
         const Treport = document.createElement("div");
         const link = document.createElement("a");
-        link.href = `bilanci/${anno}.pdf`;
+        //link.href = `bilanci/${anno}.pdf`;
+        link.href = `bilanci/2014.pdf`;
         //link.classList.add("link");
         link.innerHTML = `<h1>${anno}</h1>`;
         Treport.appendChild(link)
