@@ -1,3 +1,9 @@
+body {
+  background-color: #398d83;
+}
+.principale {
+  background-color: white;
+}
 h1 {
   color: green
 }
