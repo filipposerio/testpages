@@ -1,14 +1,13 @@
 
-  /* Set a background color */
+  /* imposto le proprietà per la sezione articoli che rappresenta il testo sotto le foto presenti nella pagina */
   article {
     padding-left:2%;
     padding-right: 2%;
-    text-align:justify;
+    text-align:left;
     /*background-color: #F8F8F8; */
     background-color: white;
     /*font-family: Verdana,Helvetica,'Courier New', Arial, Helvetica, Sans-Serif;*/
-    font-family:  Cochin,'Times New Roman', Times, serif
-;    color: #444444;
-    font-size: 14gpt;
+    font-family:  Cochin,'Times New Roman', Times, serif;
+    font-size: 12pt;
     }
   

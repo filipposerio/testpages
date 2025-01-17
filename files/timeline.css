@@ -50,17 +50,17 @@
     z-index: 1;
   }
   
-  /* Place the container to the left */
+  /* Posizionamento del contenitore testo e link sulla sinistra */
   .left {
     left: 0;
   }
   
-  /* Place the container to the right */
+  /* Posizionamento del contenitore testo e link sulla destra */
   .right {
     left: 50%;
   }
   
-  /* Add arrows to the left container (pointing right) */
+  /* Aggiunta di una freccia al contenitore posizionato a sinistra. La freccia indica un punto (anno) sulla linea verticale alla sua destra */
   .left::before {
     content: " ";
     height: 0;
@@ -74,7 +74,8 @@
     border-color: transparent transparent transparent black;
   }
   
-  /* Add arrows to the right container (pointing left) */
+  /* Aggiunta di una freccia al contenitore posizionato a destra. La freccia indica un punto (anno) sulla linea verticale alla sua sinistra */
+
   .right::before {
     content: " ";
     height: 0;
@@ -93,37 +94,39 @@
     left: -16px;
   }
   
-  /* The actual content */
+  /* definisco il contenitore del testo e dei link per aprire i bilanci dei vari anni */
   .content {
     padding: 20px 30px;
     background-color: white;
     position: relative;
-    border-radius: 6px;
+    border-radius: 20px;
   }
   
-  /* Media queries - Responsive timeline on screens less than 600px wide */
+  /* ridefinisco la proprietà trext decoration dei link all'interno del contenitore della timeline per eliminare la presentazione con il testo sottolineato */
+  a:link{
+    text-decoration: none;
+  }
+
+  /* Ridefinisco alcune proprietà per schermi dei dispositivi mobili con schermo inferiore a 600px.*/
   @media screen and (max-width: 767px) {
-  /* Place the timelime to the left */
+
+  /* Timeline sempre a sinistra*/
     .timeline::after {
       left: 15px;
     }
   
-  /* Full-width containers */
-
-
- 
+  /* Il contenitore presenta i dati solo verticalmente e non sinistra destra come per gli schermi più grandi */
   .Tcontainer {
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: Helvetica, sans-serif;    
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family:  sans-serif;    
     padding: 10px 10px;
     position: relative;
-
   }
   
   
-  /* Make sure that all arrows are pointing leftwards */
+  /* Tutte le frecce sulla linea del tempo puntano a sinistra */
     .Tcontainer::before {
       left: 25px;
       border: medium solid white;
@@ -132,19 +135,17 @@
       top: 15px;
     }
   
-  /* Make sure all circles are at the same spot */
+  /* Il cerchietto alll'interno della linea del tempo si trova sempre allo stesso punto */
     .left::after, .right::after {
       left: 0px;
     }
   
-  /* Make all right containers behave like the left ones */
+  /* Non c'è differenza tra pannello sinistro e destro */
     .right {
       left: 0%;
     }
   }
 
-  a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-  }
+
+ 
+  

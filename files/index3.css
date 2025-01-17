@@ -1,7 +1,5 @@
-body {
+abody {
   background-color: #3bc6b6;
-  
-  
 }
 .principale {
   background-color: white;
@@ -25,7 +23,7 @@ p {
 }
 aside {
   width: 10%;
-  height: 800px;
+  height: 100%;
   padding-left: 15px;
   margin-left: 15px;
   float: right;
