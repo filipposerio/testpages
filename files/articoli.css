@@ -6,8 +6,9 @@
     text-align:left;
     /*background-color: #F8F8F8; */
     background-color: white;
+    color: green;
     /*font-family: Verdana,Helvetica,'Courier New', Arial, Helvetica, Sans-Serif;*/
-    font-family:  Cochin,'Times New Roman', Times, serif;
-    font-size: 12pt;
+    font-family:  Helvetica,Cochin,'Times New Roman', Times, serif;
+    font-size: 16pt;
     }
   

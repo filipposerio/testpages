@@ -1,15 +1,27 @@
-abody {
-  background-color: #3bc6b6;
+
+
+#ahome {
+  /*background-color: #3bc6b6;*/
+  background-image: url("immagini/carousel/15-59-42-307_512.webp");
+  /*background-repeat: repeat-none;*/
 }
 .principale {
   background-color: white;
   width: 80%;
 }
+.obiettivi{
+  background-color: white;
+  
+  font-size: 12pt;
+  height: 200px;
+}
 h1 {
   color: green
 }
 h2 {
-  color: green
+  color: green;
+  font-weight: bold;
+
 }
 
 p {
