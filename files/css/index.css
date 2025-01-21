@@ -32,7 +32,8 @@ p {
 @media screen and (max-width: 767px) {
   /* Place the timelime to the left */
     body {
-      background-color: hsla(141, 76%, 79%, 0.784);
+      /*background-color: hsla(141, 76%, 79%, 0.784);*/
+      background-color: white
     }
     .principale{
       width: 100%;
