@@ -1,9 +1,9 @@
 
   /* imposto le proprietà per la sezione articoli che rappresenta il testo sotto le foto presenti nella pagina */
   article {
-    padding-left:2%;
-    padding-right: 2%;
-    text-align:left;
+    padding-left:2%; /* lascio il 2% di spazio dal contenitore di sinistra*/
+    padding-right: 2%;  /* lascio il 2% di spazio dal contenitore di destra*/
+    text-align:center;
     /*background-color: #F8F8F8; */
     background-color: white;
     color: green;

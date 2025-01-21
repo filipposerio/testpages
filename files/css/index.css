@@ -2,6 +2,7 @@
 footer {
   width: 100%;
   background-color: hsla(141, 76%, 79%, 0.784);
+  font-size: 10px;
 }
 .principale {
   background-color: white;

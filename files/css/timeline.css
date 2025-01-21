@@ -113,11 +113,12 @@
   /* Il contenitore presenta i dati solo verticalmente e non sinistra destra come per gli schermi più grandi */
   .Tcontainer {
     width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
     font-family:  sans-serif;    
-    padding: 10px 10px;
+    /*padding: 1px 1px;*/
     position: relative;
+    font-size: 12pt;
   }
   
   
