@@ -27,9 +27,10 @@ Il progetto è organizzato nella seguente struttura:
 
 
   └ /immagini
-      └ 2000.png
-      └ 2001.png
-      └ ...
+      └ ambiente.jpg
+      └ logo.svg
+      └ modello.jpg
+      └ …
 
 index.html: File principale della pagina web.
 REAADME.txt (questo file)
@@ -37,9 +38,6 @@ REAADME.txt (questo file)
 /css/index.css: File di stile per la personalizzazione dell'aspetto grafico generale degli elementi della pagina.
 /css/articoli.css: File di stile per la personalizzazione dell'aspetto grafico dei testi presenti sotto le immagini principali della pagina.
 /css/timeline.css: File di stile per la personalizzazione dell'aspetto grafico della sezione report di sostenibilità.
-
-
-???? /js/script.js: Script JavaScript per la gestione delle interazioni dinamiche.
 
 /bilanci: Cartella contenente i bilanci di sostenibilità in formato PDF ed un file js con i riassunti anno per anno.
 
