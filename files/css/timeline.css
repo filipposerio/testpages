@@ -93,11 +93,6 @@
     border-color: green;
   }
   
-  /* ridefinisco la proprietà trext decoration dei link all'interno del contenitore della timeline per eliminare la presentazione con il testo sottolineato */
-  a:alink{
-    text-decoration: none;
-  }
-
   /* Ridefinisco alcune proprietà per schermi dei dispositivi mobili con schermo inferiore a 600px.*/
   @media screen and (max-width: 767px) {
 

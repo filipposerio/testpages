@@ -21,8 +21,8 @@ Il progetto è organizzato nella seguente struttura:
       └ timeline.css
   └ /bilanci
       └ frasi.pdf
-      └ 2000.pdf
-      └ 2001.pdf
+      └ 2023.pdf
+      └ 2022.pdf
       └ …
 
 
