@@ -65,10 +65,10 @@
 
 <br>
 <br>
-<div class="principale container mt-5 mb-5" style="width: 80%;">
+<div class="principale container " style="width: 80%;">
 <br>
 <br>
-<section class="container mt-5 mb-5 content-section " id="ambiente"  >
+<section class="container content-section " id="ambiente"  >
           <article>
                 <div class="row">
                     <div class="col-lg-6">    <img src="immagini/ambiente.jpg" style="width:100%; border-radius:10px 10px 10px 10px;" alt="libro aperto e penna che rappresenta l'azione di disegnare un modello per la realizzazione di un progetto"></div>
@@ -81,7 +81,8 @@
             <div class="row">
                 
                     <article>
-                        Proteggere l’ambiente, attraverso l’analisi, la valutazione e la gestione dei rischi in ottica di prevenzione degli impatti e di valorizzazione delle opportunità
+                        Proteggere l’ambiente, attraverso l’analisi, la valutazione e la gestione dei rischi 
+                        in ottica di prevenzione degli impatti e di valorizzazione delle opportunità
                     </article>
                 
             </div>
@@ -91,8 +92,7 @@
         </footer>
  </section>
  
-<section class="container mt-5 mb-5 content-section" id="impegno" >
-                <!-- Descrizione del Gruppo Hera e del suo impatto -->
+<section class="container  content-section" id="impegno" >
                  <br>
                  <br>
                  <br>
@@ -107,7 +107,8 @@
                 <br>
                     <div class="row">
                         <article >
-                            Impegnarsi a mitigare gli effetti del crescente deterioramento dell’ambiente e del cambiamento climatico tenendo conto del loro impatto sociale
+                            Impegnarsi a mitigare gli effetti del crescente deterioramento dell’ambiente 
+                            e del cambiamento climatico tenendo conto del loro impatto sociale
                         </article>
                     </div>
                   </article>
@@ -115,7 +116,7 @@
                     <hr>
                 </footer>
             </section>
-<section class="container mt-5 mb-5 content-section" id="modello">
+            <section class="container  content-section" id="modello">
                 <br>
                 <br>
                 <br>
@@ -130,8 +131,10 @@
                     <br>
                     <div class="row">
                         <article >
-                            Fissare obiettivi per assicurare e misurare le azioni volte ad evitare, mitigare o ridurre l'impatto sugli ecosistemi terrestri e acquatici, mettendo a disposizione le risorse necessarie ed
-aggiornando gli obiettivi in ottica di miglioramento continuo dei processi e delle prestazioni
+                            Fissare obiettivi per assicurare e misurare le azioni volte ad evitare, 
+                            mitigare o ridurre l'impatto sugli ecosistemi terrestri e acquatici, 
+                            mettendo a disposizione le risorse necessarie ed aggiornando gli obiettivi 
+                            in ottica di miglioramento continuo dei processi e delle prestazioni
                         </article>
                     </div>
 
@@ -141,7 +144,7 @@ aggiornando gli obiettivi in ottica di miglioramento continuo dei processi e del
                     <hr>
                 </footer>
             </section>
-            <section class="container mt-5 mb-5 content-section" id="obiettivi">
+            <section class="container  content-section" id="obiettivi">
                 <br>
                 <br>
                 <br>
@@ -157,7 +160,10 @@ aggiornando gli obiettivi in ottica di miglioramento continuo dei processi e del
                     <br>
                     <div class="row">
                         <article >
-                            Rispettare gli obblighi normativi e gli impegni volontari, garantendo che le attività operative siano eseguite in conformità alla disciplina legislativa e regolamentare dei diversi Paesi                        </article>
+                            Rispettare gli obblighi normativi e gli impegni volontari, 
+                            garantendo che le attività operative siano eseguite in conformità alla disciplina legislativa 
+                            e regolamentare dei diversi Paesi
+                        </article>
                     </div>
 
                   </article>
@@ -183,7 +189,14 @@ aggiornando gli obiettivi in ottica di miglioramento continuo dei processi e del
 </div>
 <footer style="width: 100%;">
     <div class="container">
-        <row><small><em>"Lo sviluppo sostenibile è in grado di soddisfare i bisogni delle generazioni attuali senza compromettere la possibilità che le generazioni future riescano a soddisfare i propri" <br> (Gro Harlem Brundtland, 1987).</em></small></row>
+        <row>
+            <small>
+                <em>"Lo sviluppo sostenibile è in grado di soddisfare i bisogni delle generazioni attuali 
+                    senza compromettere la possibilità che le generazioni future riescano a soddisfare i propri" 
+                    <br> (Gro Harlem Brundtland, 1987).
+                </em>
+            </small>
+        </row>
     </div>
     <br>
 
@@ -191,64 +204,47 @@ aggiornando gli obiettivi in ottica di miglioramento continuo dei processi e del
 
 </body>
 
+<!-- il file frasi contiene il testo da presentare accanto a ciascun libk al bilancio annuale-->
 <script src="./bilanci/frasi.js"></script>
 <script>
-//generateBilanci();
-function showSection(sectionId) {
-        // Nascondi tutte le sezioni
-        const sections = document.querySelectorAll('.content-section');
-        sections.forEach(section => {
-            section.style.display = 'none';
-        });
-
-        // Mostra solo la sezione selezionata
-        const selectedSection = document.getElementById(sectionId);
-        if (selectedSection) {
-            selectedSection.style.display = 'block';
-
-            // Se la sezione mostrata è "bilanci", rigenera l'elenco dei bilanci
-            if (sectionId === 'bilanci') {
-                generateBilanci();
-            }
-            if (sectionId === 'sostenibilita') {
-                document.getElementById(sectionId).classList.add("show")
-            } 
-            if (sectionId === 'inizio') {
-                document.getElementById(testocentrale).innerHTML= "PIPPO"
-            } 
-        }
-    }
-    
-    // Funzione per generare dinamicamente la griglia dei bilanci
+  
+// Funzione per generare dinamicamente la griglia dei bilanci
+// intervallo di tempo dal 2013 2023
+//viene creato dinamicamente il link al bilancio di ciascun anno e accanto un testo che lo identifica.
 function generateBilanciTimeline() {
     vFrasi = lFrasi
     const bilanciContainer = document.getElementById("reporttime"); // Il contenitore principale per i bilanci
 
     // Anni dei bilanci da generare (dal 2000 al 2023)
+    // creaiamo un vettore anni con l'intervallo 2013 2023
     const anni = [];
     for (let i = 2023; i >= 2013; i--) {
-        anni.push(i);
+        anni.push(i); // aggiunge un elemento all'array
     }
 
-    // Aggiungiamo gli elementi dinamicamente
+    // Aggiungiamo gli elementi dinamicamente attrverso un CICLO foreach sull'intervallo di anni appena creato
     anni.forEach((anno, index) => {
-        // Creiamo un elemento grid-item
+        // in questa funzione creaimo dinamicamente la sezione dei bilanci/report di sostenibilità
+        //utilizziamo per questa sezione il file di sitle timeline.css
+        // Creiamo un elemento div e aggiungiamo la classe TContainer del file timeline.css
         console.log(anno)
         const Tcontainer = document.createElement("div");
         Tcontainer.classList.add("Tcontainer");
         console.log(anno % 2)
         // stabiliamo se il container deve essere posto a destra oppure a sinistra
-        // in uno schemro per smartphone verranno comunque scritti uno sotto l'altro
+        // aggiungendo la classe left oppure la classe rigth
+        // grazie alle media queries di css,in uno schemro per smartphone verranno 
+        // comunque scritti uno sotto l'altro
         if ((anno % 2) > 0) {
             Tcontainer.classList.add("left");
         }
         else {
             Tcontainer.classList.add("right");
         }
-        // aggiungiamo un div per il content
+        // aggiungiamo un div per il content che conterrà il link e il testo del report
         const Tcontent = document.createElement("div");
         Tcontent.classList.add("content")
-        // aggiungiamo un div per il link al report
+        // aggiungiamo un div per il link al report e lo appendiamo al contenitore
         const Treport = document.createElement("div");
         const link = document.createElement("a");
         link.href = `bilanci/${anno}.pdf`;
@@ -256,27 +252,19 @@ function generateBilanciTimeline() {
         //link.classList.add("link");
         link.innerHTML = `<h1>${anno}</h1>`;
         Tcontent.appendChild(link)
+        //aggiungiamo un testo in corsivo (em) per il testo e lo appendiamo al contenitore
         const par = document.createElement("em");
         console.log(vFrasi)
+        //leggiamo il testo corrispondente all'anno 
         par.textContent = vFrasi[index].testo == undefined ? "nessun testo" : vFrasi[index].testo
         Tcontent.appendChild(par)
         //colleghiamo i div appena creati
         Tcontent.appendChild(Treport)
-
         Tcontainer.appendChild(Tcontent)
-   
-
 
         // Aggiungiamo l'item alla griglia
         bilanciContainer.appendChild(Tcontainer);
 
-        // Aggiungi la classe 'show' per l'effetto di transizione dopo un certo ritardo
-       /*
-        setTimeout(() => {
-            gridItem.classList.add("show");
-        }, index * 250); // Ritardo per ogni elemento
-
-        */
     });
 }
 generateBilanciTimeline();

@@ -1,16 +1,11 @@
-/** {
-    box-sizing: border-box;
-  }
-*/
-  
-  /* The actual timeline (the vertical ruler) */
+  /* classe timeline line verticale*/
   .timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 1200px; /* lunghezza massima per contenere tutti i report (link e testi)*/
     margin: 0 auto;
   }
   
-  /* The actual timeline (the vertical ruler) */
+  /* classe timeline,  pseudo-element after per definire lo spessore della linea verticale e il colore  */
   .timeline::after {
     content: '';
     position: absolute;
@@ -22,7 +17,7 @@
     margin-left: -3px;
   }
   
-  /* Container around content */
+  /* Contenitore principale dei vari report */
   .Tcontainer {
     padding: 10px 40px;
     position: relative;
@@ -124,7 +119,7 @@
   }
   
   
-  /* Tutte le frecce sulla linea del tempo puntano a sinistra */
+  /* Tutte le frecce sulla linea del tempo puntano a sinistra e sono nere*/
     .Tcontainer::before {
       left: 25px;
       border: medium solid white;
@@ -133,7 +128,7 @@
       top: 15px;
     }
   
-  /* Il cerchietto alll'interno della linea del tempo si trova sempre allo stesso punto */
+  /* Il cerchietto alll'interno della linea del tempo si troverà sempre allo stesso punto */
     .left::after, .right::after {
       left: 0px;
     }

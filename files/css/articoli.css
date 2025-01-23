@@ -1,14 +1,15 @@
 
-  /* imposto le proprietà per la sezione articoli che rappresenta il testo sotto le foto presenti nella pagina */
+  /* imposto le proprietà per la sezione tag html articoli 
+  che rappresenta il testo sotto le foto presenti nella pagina */
   article {
     padding-left:2%; /* lascio il 2% di spazio dal contenitore di sinistra*/
     padding-right: 2%;  /* lascio il 2% di spazio dal contenitore di destra*/
-    text-align:center;
-    /*background-color: #F8F8F8; */
+    text-align:center; 
     background-color: white;
     color: green;
-    /*font-family: Verdana,Helvetica,'Courier New', Arial, Helvetica, Sans-Serif;*/
-    font-family:  Helvetica,Cochin,'Times New Roman', Times, serif;
+    /* importo lil font. Il primo font è helvetica. Se il dispotivo non lo supporta
+    allora viene preso il successivo da sinistra a destra*/
+    font-family:  Helvetica,'Times New Roman', Times, serif;
     font-size: 16pt;
     }
   
