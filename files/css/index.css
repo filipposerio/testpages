@@ -10,9 +10,20 @@ footer {
 
   font-size: 10px;
 }
+.footer-content {
+  display: flex;
+  justify-content: center; /* Allinea al centro orizzontalmente */
+  align-items: center;    /* Centra verticalmente */
+  padding: 10px;          /* Spaziatura opzionale */
+}
+
+.footer-image {
+  max-width: 260px;       /* Imposta una dimensione massima per l'immagine */
+  height: auto;           /* Mantiene le proporzioni */
+}
 .principale {
   background-color: white;
-  width: 80%;
+  width: 90%;
 }
 .obiettivi{
   background-color: white;

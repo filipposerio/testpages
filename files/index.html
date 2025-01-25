@@ -32,6 +32,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="immagini/logo.jpg" width="150px" height="30px" alt="logo Intesa San Paolo">
+                Sostenibilità
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,14 +44,12 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#bilanci" >Dichiarazioni di Sotenibilità</a>
+                        <a class="nav-link" href="#bilanci" >Report di sotenibilità</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="container-fluid" style="color:white">
-        Sviluppo di una pagina web per il download dei report di sostenibilità di un’impresa del settore terziario
-        </div>
+
     </nav>
 </header>
 <!-- da qui in poi iniziano le sezioni che riportatno dei messaggi con immagini significativi-->
@@ -60,9 +59,12 @@
 
 <br>
 <br>
-<div class="principale container " style="width: 80%;" id="principale">
+<div class="principale container " id="principale">
 <br>
 <br>
+<div class="container" style="background-color: green; color:white">
+    Sviluppo di una pagina web per il download dei report di sostenibilità di un’impresa del settore terziario
+</div>
 <br>
 <br>
 <h1>DICHIARAZIONE DI SOSTENIBILITA NON FINANZIARIA</h1>
@@ -70,10 +72,12 @@
 La rendicontazione non finanziaria e di sostenibilità si focalizza su aspetti rilevanti che riflettono gli impatti,
     positivi o negativi, effettivi o potenziali, generati dalle attività del Gruppo Intesa Sanpaolo sull’economia,
     l’ambiente e le persone, compresi gli impatti sui loro diritti umani, capaci di influenzare in maniera significativa
-    la percezione dei propri Stakeholder. 
-<section class="container content-section " id="contenutiESG"  >
-</section>
-        </div>
+    la percezione dei propri Stakeholder.
+<br>
+
+<div class="container content-section " id="contenutiESG"  >
+</div>
+</div>
         <div id="bilanci" class="container  content-section content ">
             <br>
             <br>
@@ -85,7 +89,11 @@ La rendicontazione non finanziaria e di sostenibilità si focalizza su aspetti r
                 <p>
                     Il documento annuale che rendiconta le performance del Gruppo in ambito ESG (Environmental, Social and Governance) secondo i principali standard internazionali. 
                 </p>
-                <!-- I bilanci verranno generati dinamicamente qui -->
+                L’obiettivo di un grande Gruppo bancario come Intesa Sanpaolo è creare valore sostenibile di lungo periodo per sé e per i propri stakeholder.
+                    Raggiungere il target Net-Zero entro il 2050, sostenere i piani di transizione delle imprese, offrire sempre più prodotti di investimento sostenibile, favorire l’inclusione e abbattere le disuguaglianze sociali, sono alcuni impegni contenuti nel pilastro ESG del Piano d’Impresa
+                    I valori guida, le strategie, i risultati ottenuti e i nuovi obiettivi del Gruppo sono illustrati nelle Dichiarazioni Consolidate Non Finanziarie. 
+                <br><br>
+                    <!-- I bilanci verranno generati dinamicamente qui -->
             <div class="timeline" id="reporttime">
             </div>
         </div>
@@ -176,12 +184,14 @@ function creaSezioni(dati) {
     let html = '';
     html += `
         <article class="container mt-5 mb-5 content-section" id="progetti">
+             <hr>
             <h2 class="w-100 text-center">I NOSTRI PROGETTI</h2>
+            <hr>
         </article>
         `
     dati.forEach(dato => {
         html += `
-        <section class="container mt-5 mb-5 content-section" id="${dato.titolo}">
+        <div class="container-fluid content-section" id="${dato.titolo}">
          
             
                    <br>
@@ -202,10 +212,12 @@ function creaSezioni(dati) {
                 </div>
             
             <footer style="width: 100%; background-color: white">
-                <img src="${dato.imgfooter}"  alt="${dato.altimgfooter}" >
+                <div class="footer-content">
+                <img src="${dato.imgfooter}"  alt="${dato.altimgfooter}" class="footer-image">
+                </div>
                 <hr>
             </footer>
-        </section>
+        </div>
         `;
     });
 
