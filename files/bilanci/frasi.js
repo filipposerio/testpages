@@ -2,48 +2,51 @@ lFrasi=
 [
     {
         anno : "2023",
-        testo : "Sostenibilità finanziaria e ambientale per perseguire la creazione di valore con una struttura finanziaria solida ed equilibrata, affrontando e sostenendo con impegno le sfide del cambiamento climatico. "
+        testo : "I risultati economici e patrimoniali ottenuti nel 2023 confermano la capacità di Intesa Sanpaolo di generare una solida "+
+" redditività e di essere un modello di riferimento per la sostenibilità riconosciuto, tra l’altro, dal posizionamento ai vertici nei "+
+" principali indici e classifiche: è l’unica Banca italiana presente nei Dow Jones Sustainability Indices (World e Europe), prima "+
+" banca europea e seconda al mondo nell’indice 2024 di Corporate Knights ‘‘Global 100 Most Sustainable Corporations in"+
+" the World’’, inclusa nel Leadership level di CDP; "
     },
     {
         anno : "2022",
-        testo : "Viviamo in un mondo sempre più interconnesso dove le aziende che continueranno a prosperare nel lungo periodo saranno quelle in grado di agire collettivamente, creando e condividendo valore con tutti gli stakeholder"
+        testo : "Il 2022 è stato catatterizzsto da contesti complessi segnati dal conflitto Russia-Ucraina, il cui impatto ha coinvolto "+
+"in modo diretto e indiretto famiglie, imprese ed economie. In tale contesto, Intesa Sanpaolo, oltre a dimostrare di essere "+
+"pienamente in grado di operare con successo anche in situazioni complesse e di avere solide basi per il futuro, continua "+
+"ad essere un modello di riferimento per la sostenibilità con impegni sociali e ambientali ben definiti"
     },
     {
         anno : "2021",
-        testo : "Il mondo ha di fronte a sé una sfida importante, che richiede un impegno immediato e concreto. L’elettricità è la forma di energia più efficiente, sicura ed economica, ed è la chiave, con le fonti rinnovabili e lo storage, per la completa decarbonizzazione del nostro pianeta"
+        testo : "Nonostante uno scenario globale segnato dall’emergenza sanitaria da COVID-19, Intesa Sanpaolo ha portato a termine "+
+"con successo il Piano d’Impresa 2018-2021, attraverso una strategia fondata su sostenibilità e radicamento nei territori, "+
+"confermando la propria solidità patrimoniale e la capacità di creare valore di lungo termine per tutti gli stakeholder"
     },
     {
         anno : "2020",
-        testo : "Un anno impegnativo come il 2020, caratterizzato dall’emergenza pandemica, ci ha fatto fare un viaggio nel futuro agendo da acceleratore di importanti trend legati alla transizione energetica: decarbonizzazione, elettrificazione e digitalizzazione."
+        testo : "Nel contesto di emergenza straordinaria che ha caratterizzato il 2020 Intesa Sanpaolo, avvalendosi di una forte solidità "+
+"finanziaria, ha confermato la capacità di assolvere al proprio ruolo di acceleratore sociale supportando il Paese nel gestire "+
+"l’impatto di una fortissima crisi sanitaria, economica e sociale come parte attiva, attraverso una strategia che ha visto "+
+"la sostenibilità come un tema centrale. In questo contesto, si è concretizzata l’unione con il Gruppo UBI Banca, che ha "+
+"contribuito a rafforzare il ruolo di Intesa Sanpaolo per la crescita sostenibile e inclusiva, anche grazie alla condivisione di "+
+"valori aziendali comuni alle due realtà."
     },
     {
         anno : "2019",
-        testo : "Cambiamento climatico, crescita della popolazione mondiale, accelerazione tecnologica, mutamenti negli equilibri geopolitici sono tra le principali forze che caratterizzano il cambiamento d’epoca che stiamo vivendo."
+        testo : "Nel 2019 l’impegno del Gruppo nell’ambito della sostenibilità è stato ulteriormente rafforzato con l’adesione "+
+"a tre importanti iniziative delle Nazioni Unite, che si inquadrano nell’ambito del raggiungimento degli Obiettivi "+
+"di Sviluppo Sostenibile (UN Sustainable Development Goals). "+
+"Il Gruppo Intesa Sanpaolo è uno dei pochi gruppi finanziari europei ad avere aderito a tutte le principali  "+
+ "iniziative delle Nazioni Unite relative al proprio business nel campo della sostenibilità"
     },
     {
         anno : "2018",
-        testo : "“Shaper e leader”: artefici e guida della transizione energetica."
-    },
-    {
-        anno : "2017",
-        testo : "In scenari sempre più mutevoli e competitivi, anche grazie all’accelerazione impressa dall’evoluzione tecnologica, le imprese sono chiamate a cambiare molto velocemente. Nella definizione della propria visione strategica, così come nella sua attuazione."
-    },
-    {
-        anno : "2016",
-        testo : " La sostenibilità è parte integrante del nostro modo di essere impresa, e ci guida nel trovare soluzioni sempre nuove per ridurre l’impatto ambientale delle nostre attività, per crescere assieme alle comunità di cui siamo parte, per aumentare la sicurezza dei nostri colleghi e dei nostri fornitori."
-    },
-    {
-        anno : "2015",
-        testo : "Il 25 settembre 2015, l’Organizzazione delle Nazioni Unite (ONU) ha definitivamente adottato i nuovi Obiettivi di Sviluppo Sostenibile (SDGs) al 2030. Un invito alle aziende a dare il proprio contributo – anche attraverso la capacità d’innovazione – per affrontare le sfide dello sviluppo sostenibile, quali la povertà, il diritto all’istruzione, l’accesso al lavoro, la parità di genere, la disponibilità universale delle risorse idriche, l’accesso all’energia e i cambiamenti climatici."
-    },
-    {
-        anno : "2014",
-        testo : "Essere sostenibili oggi vuol dire essere competitivi domani; significa creare valore duraturo nel tempo rispondendo attraverso l’offerta di prodotti e servizi e attraverso le relazioni con clienti e territorio – alle esigenze delle comunità in cui l’Azienda opera."
-    },
-    {
-        anno : "2013",
-        testo : "Le imprese, soprattutto le grandi multinazionali, sono sempre più uno snodo cruciale di incontro e confronto tra mondo economico e società. Per questo motivo la Corporate Social Responsibility (CSR) è una priorità ineludibile per i leader aziendali nella realizzazione di un modello imprenditoriale efficace e virtuoso. "
-    },
+        testo : "Con il Piano di Impresa 2018-2021 Intesa Sanpaolo conferma l’obiettivo di essere una Banca leader in Europa, "+
+"orientata alla creazione di valore sostenibile nel tempo e alla sua distribuzione a tutti gli stakeholder. Il Piano "+
+"fa leva su solide basi e può contare sul contributo essenziale delle nostre persone e su una piattaforma "+
+"digitale all’avanguardia. In linea con le richieste che pervengono dagli stakeholder sui temi di sostenibilità, il "+
+"Gruppo punta anche a rafforzare la leadership nella Corporate Social Responsibility e a diventare un punto di "+
+"riferimento per la società."
+    }
 
 
 ]
