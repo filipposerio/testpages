@@ -5,6 +5,9 @@
     padding-left:2%; /* lascio il 2% di spazio dal contenitore di sinistra*/
     padding-right: 2%;  /* lascio il 2% di spazio dal contenitore di destra*/
     text-align:center; 
+    
+
+    background-color: lightgreen;
     background-color: white;
     color: green;
     /* importo lil font. Il primo font è helvetica. Se il dispotivo non lo supporta
@@ -12,4 +15,3 @@
     font-family:  Helvetica,'Times New Roman', Times, serif;
     font-size: 16pt;
     }
-  

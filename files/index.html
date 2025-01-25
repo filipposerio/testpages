@@ -28,10 +28,10 @@
     <!-- il menù principale o navbar è fissato in alto nellapagina sia su dispositivi desktop che su dispositivi mobili.-->
     <!-- Nei dispositivi mobili le voci di menù collassano automaticamente su un menu a tendina .-->
     <!-- Questa funzionalità è oofferta dal controllo navbar della libreria Bootstrap .-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+    <nav class="navbar navbar-expand-lg  fixed-top " style="background-color: green">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="immagini/logo.svg" width="50px" height="30px" alt="enel">
+                <img src="immagini/logo.jpg" width="150px" height="30px" alt="logo Intesa San Paolo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,153 +39,57 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#ambiente" >Ambiente</a>
+                        <a class="nav-link" href="#principale" >Progetti</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#impegno" >Impegno</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#obiettivi" >Obiettivi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#bilanci" >Reports</a>
+                        <a class="nav-link" href="#bilanci" >Dichiarazioni di Sotenibilità</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="container-fluid">
-        <p>Sviluppo di una pagina web per il download dei report di sostenibilità di un’impresa del settore terziario</p>
+        <div class="container-fluid" style="color:white">
+        Sviluppo di una pagina web per il download dei report di sostenibilità di un’impresa del settore terziario
         </div>
     </nav>
 </header>
 <!-- da qui in poi iniziano le sezioni che riportatno dei messaggi con immagini significativi-->
 <!-- Le quattro sezioni individuate sono le seguenti: Ambiente, Impegno, Obiettivi, Reports-->
 <!-- L'ultima sezione riporta i reports di sostenibilità-->
-<!-- in questa ultima sezione l'elenco dei bilanci dal 2013 al 2023 viene generato dinamicamente -->
+<!-- in questa ultima sezione l'elenco dei bilanci dal 2018 al 2023 viene generato dinamicamente -->
 
 <br>
 <br>
-<div class="principale container " style="width: 80%;">
+<div class="principale container " style="width: 80%;" id="principale">
 <br>
 <br>
-<section class="container content-section " id="ambiente"  >
-          <article>
-                <div class="row">
-                    <div class="col-lg-6">    <img src="immagini/ambiente.jpg" style="width:100%; border-radius:10px 10px 10px 10px;" alt="libro aperto e penna che rappresenta l'azione di disegnare un modello per la realizzazione di un progetto"></div>
-                    <div class="col-sm">
-                        <br><br>
-                        <h2 class="w-100 text-center">RESPONSABILITÀ VERSO L'AMBIENTE</h2>
-                    </div>
-            </div>
-            <br>            
-            <div class="row">
-                
-                    <article>
-                        Proteggere l’ambiente, attraverso l’analisi, la valutazione e la gestione dei rischi 
-                        in ottica di prevenzione degli impatti e di valorizzazione delle opportunità
-                    </article>
-                
-            </div>
-          </article>
-          <footer style="width: 100%; background-color: white">
-            <hr>
-        </footer>
- </section>
- 
-<section class="container  content-section" id="impegno" >
-                 <br>
-                 <br>
-                 <br>
-                <article>
-                    <div class="row">
-                        <div class="col-lg-6">    <img src="immagini/hands-4087018_1280.jpg" style="width:100%; border-radius:10px 10px 10px 10px;" alt="libro aperto e penna che rappresenta l'azione di disegnare un modello per la realizzazione di un progetto"></div>
-                        <div class="col-sm">
-                            <br><br><br>
-                            <h2 class="w-100 text-center">IMPEGNO PER IL FUTURO</h2>
-                        </div>
-                </div>
-                <br>
-                    <div class="row">
-                        <article >
-                            Impegnarsi a mitigare gli effetti del crescente deterioramento dell’ambiente 
-                            e del cambiamento climatico tenendo conto del loro impatto sociale
-                        </article>
-                    </div>
-                  </article>
-                <footer style="width: 100%; background-color: hsla(141, 76%, 79%, 0.784)">
-                    <hr>
-                </footer>
-            </section>
-            <section class="container  content-section" id="modello">
-                <br>
-                <br>
-                <br>
-                <article>
-                    <div class="row">
-                            <div class="col-lg-6">    <img src="immagini/modello.jpg" style="width:100%; border-radius:10px 10px 10px 10px;" alt="libro aperto e penna che rappresenta l'azione di disegnare un modello per la realizzazione di un progetto"></div>
-                            <div class="col-sm">
-                                <br><br><br>
-                                <h2 class="w-100 text-center">FISSARE GLI OBIETTIVI</h2>
-                            </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <article >
-                            Fissare obiettivi per assicurare e misurare le azioni volte ad evitare, 
-                            mitigare o ridurre l'impatto sugli ecosistemi terrestri e acquatici, 
-                            mettendo a disposizione le risorse necessarie ed aggiornando gli obiettivi 
-                            in ottica di miglioramento continuo dei processi e delle prestazioni
-                        </article>
-                    </div>
-
-                  </article>
-
-                <footer style="width: 100%; background-color: hsla(141, 76%, 79%, 0.784)">
-                    <hr>
-                </footer>
-            </section>
-            <section class="container  content-section" id="obiettivi">
-                <br>
-                <br>
-                <br>
-                <article>
-                    <div class="row">
-                            <div class="col-lg-6">    <img src="immagini/idea-3306757_1280.webp" style="width:100%; border-radius:10px 10px 10px 10px;"" alt="libro aperto e penna che rappresenta l'azione di disegnare un modello per la realizzazione di un progetto"></div>
-                            <div class="col-sm">
-                                <br><br>
-
-                                <h2 class="w-100 text-center">RISPETTARE GLI OBBLIGHI E GLI IMPEGNI</h2>
-                            </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <article >
-                            Rispettare gli obblighi normativi e gli impegni volontari, 
-                            garantendo che le attività operative siano eseguite in conformità alla disciplina legislativa 
-                            e regolamentare dei diversi Paesi
-                        </article>
-                    </div>
-
-                  </article>
-
-                <footer style="width: 100%; background-color: hsla(141, 76%, 79%, 0.784)">
-                    <hr>
-                </footer>
-            </section>              
+<br>
+<br>
+<h1>DICHIARAZIONE DI SOSTENIBILITA NON FINANZIARIA</h1>
+<p>Lo strumento per conoscere in modo semplice e immediato i principali progetti e risultati di sostenibilità del Gruppo, rendicontati nella Dichiarazione Consolidata Non Finanziaria</p>
+La rendicontazione non finanziaria e di sostenibilità si focalizza su aspetti rilevanti che riflettono gli impatti,
+    positivi o negativi, effettivi o potenziali, generati dalle attività del Gruppo Intesa Sanpaolo sull’economia,
+    l’ambiente e le persone, compresi gli impatti sui loro diritti umani, capaci di influenzare in maniera significativa
+    la percezione dei propri Stakeholder. 
+<section class="container content-section " id="contenutiESG"  >
+</section>
         </div>
-        <section id="bilanci" class="container  content-section content ">
+        <div id="bilanci" class="container  content-section content ">
             <br>
             <br>
             <br>
-            <article >
+            <div >
                 <br>
-                <h2 class="w-100 text-center">I NOSTRI REPORT DI SOSTENIBILITA'</h2>
+                <h3 class="w-100 text-center">Le nostre Dichiarazioni Consolidate Non Finanziarie</h3>
                 <br>
+                <p>
+                    Il documento annuale che rendiconta le performance del Gruppo in ambito ESG (Environmental, Social and Governance) secondo i principali standard internazionali. 
+                </p>
                 <!-- I bilanci verranno generati dinamicamente qui -->
             <div class="timeline" id="reporttime">
             </div>
-            </article>
-        </section>
+        </div>
+        </div>
 </div>
 <footer style="width: 100%;">
     <div class="container">
@@ -206,19 +110,20 @@
 
 <!-- il file frasi contiene il testo da presentare accanto a ciascun libk al bilancio annuale-->
 <script src="./bilanci/frasi.js"></script>
+<script src="./bilanci/contenuti.js"></script>
 <script>
   
 // Funzione per generare dinamicamente la griglia dei bilanci
-// intervallo di tempo dal 2013 2023
+// intervallo di tempo dal 2018 2023
 //viene creato dinamicamente il link al bilancio di ciascun anno e accanto un testo che lo identifica.
-function generateBilanciTimeline() {
-    vFrasi = lFrasi
+function generateBilanciTimeline(dati) {
+    
     const bilanciContainer = document.getElementById("reporttime"); // Il contenitore principale per i bilanci
 
     // Anni dei bilanci da generare (dal 2000 al 2023)
-    // creaiamo un vettore anni con l'intervallo 2013 2023
+    // creaiamo un vettore anni con l'intervallo 2018 2023
     const anni = [];
-    for (let i = 2023; i >= 2013; i--) {
+    for (let i = 2023; i >= 2018; i--) {
         anni.push(i); // aggiunge un elemento all'array
     }
 
@@ -254,9 +159,9 @@ function generateBilanciTimeline() {
         Tcontent.appendChild(link)
         //aggiungiamo un testo in corsivo (em) per il testo e lo appendiamo al contenitore
         const par = document.createElement("em");
-        console.log(vFrasi)
+        //console.log(dati)
         //leggiamo il testo corrispondente all'anno 
-        par.textContent = vFrasi[index].testo == undefined ? "nessun testo" : vFrasi[index].testo
+        par.textContent = dati[index].testo == undefined ? "nessun testo" : dati[index].testo
         Tcontent.appendChild(par)
         //colleghiamo i div appena creati
         Tcontent.appendChild(Treport)
@@ -267,6 +172,56 @@ function generateBilanciTimeline() {
 
     });
 }
-generateBilanciTimeline();
+function creaSezioni(dati) {
+    let html = '';
+    html += `
+        <article class="container mt-5 mb-5 content-section" id="progetti">
+            <h2 class="w-100 text-center">I NOSTRI PROGETTI</h2>
+        </article>
+        `
+    dati.forEach(dato => {
+        html += `
+        <section class="container mt-5 mb-5 content-section" id="${dato.titolo}">
+         
+            
+                   <br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="${dato.immagine}" style="width:100%; border-radius:10px 10px 10px 10px;" alt="${dato.altimg}">
+                    </div>
+                    <div class="col-sm">
+                        <br><br><br>
+                        <h2 class="w-100 text-center">${dato.titolo}</h2>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <article>
+                        ${dato.testo}
+                    </article>
+                </div>
+            
+            <footer style="width: 100%; background-color: white">
+                <img src="${dato.imgfooter}"  alt="${dato.altimgfooter}" >
+                <hr>
+            </footer>
+        </section>
+        `;
+    });
+
+    // Aggiungi il contenuto generato al  contenitore specifico
+    const selectedSection = document.getElementById("contenutiESG");
+    selectedSection.innerHTML = html;
+}
+// Chiamata dellae funzioni da eseguire 
+
+// chiamo la funzione creaSezioni per creare le sezioni centrali con i contenuti.
+// i dati da presentare nella sezione sono passati come parametro attraverso la variabile
+// lContenuti che è dichiarata all'interno del file /bilanci/contenuti.js
+creaSezioni(lContenuti);
+// chiamo la funzione generateBilanciTimeline per creare le sezioni centrali con i contenuti.
+// i dati da presentare nella sezione sono passati come parametro attraverso la variabile
+// lContenuti che è dichiarata all'interno del file /bilanci/frasi.js
+generateBilanciTimeline(lFrasi);
 </script>    
 </html>

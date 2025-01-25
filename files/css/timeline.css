@@ -1,8 +1,11 @@
   /* classe timeline line verticale*/
+ 
   .timeline {
     position: relative;
     max-width: 1200px; /* lunghezza massima per contenere tutti i report (link e testi)*/
     margin: 0 auto;
+    background-color:white;   
+   
   }
   
   /* classe timeline,  pseudo-element after per definire lo spessore della linea verticale e il colore  */
@@ -10,7 +13,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: navy;
+    background-color: green;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -21,7 +24,7 @@
   .Tcontainer {
     padding: 10px 40px;
     position: relative;
-    background-color: white;
+    /*background-color: green;*/
     font-family: Helvetica, sans-serif;
     width: 50%;
   }
@@ -93,7 +96,7 @@
     border-color: green;
   }
   
-  /* Ridefinisco alcune proprietà per schermi dei dispositivi mobili con schermo inferiore a 600px.*/
+  /* Ridefinisco alcune proprietà per schermi dei dispositivi mobili con schermo inferiore a 767px.*/
   @media screen and (max-width: 767px) {
 
   /* Timeline sempre a sinistra*/
