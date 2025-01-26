@@ -8,7 +8,8 @@ Per visualizzare e interagire con il progetto, sono necessari i seguenti compone
 
 Un browser web moderno (Google Chrome, Mozilla Firefox, Microsoft Edge o Safari).
 
-Una connessione a Internet per scaricare il progetto dai repository indicati (le immagini e le risorse locali sono già presenti).
+Una connessione a Internet per scaricare il progetto dai repository indicati 
+(le immagini e le risorse locali sono già presenti).
 
 Struttura dei File
 
@@ -53,7 +54,7 @@ REAADME.txt (questo file)
                 dei bilanci di sostenibilità (DCNF) nei 5 anni
                 ed i testi da inserire accanto ad ogni anno
 
-/bilanci: Cartella contenente i bilanci di sostenibilità in formato PDF ed un file js con i riassunti anno per anno.
+/bilanci: Cartella contenente i bilanci di sostenibilità in formato PDF.
 
 /immagini: Cartella contenente immagini utilizzate nella pagina e il logo aziendale
 /immagini/contenuti: Cartella contenente immagini per la sezione dei contenuti

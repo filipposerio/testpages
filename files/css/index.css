@@ -3,11 +3,11 @@ body {
   background-color: white;
 }
 
-/* stile della classe footer della pagina web .
+/* stile del tag html footer della pagina web .
 Questa sezione colorata di verde conterrà una frase significativa
-con colre bianco per bilanciare  il contrasto */
+con colore bianco per bilanciare  il contrasto */
 footer {
-  width: 100%;
+  /*width: 100%;*/  
   background-color: green;
   font-size: 12px;
 }
@@ -83,11 +83,6 @@ label{
   
 /* Ridefinisco alcune proprietà per schermi dei dispositivi mobili con schermo inferiore a 767px.*/
 @media screen and (max-width: 767px) {
-  /* Place the timelime to the left */
-    body {
-      /*background-color: hsla(141, 76%, 79%, 0.784);*/
-      background-color: white
-    }
     /* per sfruttare tutto lo spazio in dispositivi più piccoli, 
     il div principale viede ridefinito occupando tutto lo schermo.
     Nei dispositivi più grandi invece viene ridimensionato al 90% */
@@ -106,4 +101,4 @@ label{
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra leggera per un tocco moderno */
     }
       
-    }
+}
