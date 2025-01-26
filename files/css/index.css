@@ -1,53 +1,83 @@
 
 body {
   background-color: white;
-  
 }
+
+/* stile della classe footer della pagina web .
+Questa sezione colorata di verde conterrà una frase significativa
+con colre bianco per bilanciare  il contrasto */
 footer {
   width: 100%;
-  /*background-color: hsla(141, 76%, 79%, 0.784);*/
   background-color: green;
-
-  font-size: 10px;
+  font-size: 12px;
 }
+/* stile della classe footer-content per disegnare correttamente 
+il contenitore delle immagini degli SDGs a piè di pagina di ogni sezione */
 .footer-content {
   display: flex;
   justify-content: center; /* Allinea al centro orizzontalmente */
   align-items: center;    /* Centra verticalmente */
-  padding: 10px;          /* Spaziatura opzionale */
+  padding: 15x;          /* Spaziatura opzionale */
+  background-color: white;
 }
-
+/* stile della classe footer-image per disegnare correttamente 
+le immagini degli SDGs a piè di pagina di ogni sezione senza uscire dal contenitore
+soprattutto su dispositivi mobili */
 .footer-image {
   max-width: 260px;       /* Imposta una dimensione massima per l'immagine */
   height: auto;           /* Mantiene le proporzioni */
 }
+
+/* stile del div principale che conterrà òa sezione dei contenuti 
+viene impostata la larghezza al 90% per lasciare un leggero margine dai bordi
+e centrare un po di più le sezioni in esso contenuto */
 .principale {
   background-color: white;
   width: 90%;
 }
-.obiettivi{
-  background-color: white;
-  
-  font-size: 12pt;
-  height: 200px;
+
+/* stile della classe bggreen che prevede un colore di sfondo verde
+e colore del testo bianco per bilanciare correttamente il contrasto */
+.bggreen {
+  background-color: green;
+  color:white;
 }
+
+/* stile della classe imgcontenuti. Le immagini riempiranno completamente i loro
+ contenitori e avranno i bordi  leggermente arrotondati */
+.imgcontenuti {
+  width:100%; 
+  border-radius:10px 10px 10px 10px;
+}
+
+/* ridefinisco il colore del tag h1 
+per bilanciare il contrasto con lo sfondo bianco*/
 h1 {
   color: green
 }
+/* ridefinisco il colore del tag h2
+per bilanciare il contrasto con lo sfondo bianco*/
 h2 {
-  color: white ;
   color: green;
- 
   font-weight: bold;
 }
+/* ridefinisco il colore del tag h3
+per bilanciare il contrasto con lo sfondo bianco*/
 h3 {
   color: green
 }
+/* ridefinisco il colore del tag p per i paragrafi
+per bilanciare il contrasto con lo sfondo bianco*/
 p {
   color: green;
   /*font-weight: bold;*/
   font-family: Helvetica,Tahoma,Arial;
   font-size: 20px;
+}
+/* ridefinisco il colore delle label come contrasto allo sfondo verde
+(usata solo nella intestazione della navbar e nel footer in fondo alla pagina*/
+label{
+  color:white;
 }
 
   
@@ -58,9 +88,22 @@ p {
       /*background-color: hsla(141, 76%, 79%, 0.784);*/
       background-color: white
     }
+    /* per sfruttare tutto lo spazio in dispositivi più piccoli, 
+    il div principale viede ridefinito occupando tutto lo schermo.
+    Nei dispositivi più grandi invece viene ridimensionato al 90% */
     .principale{
       width: 100%;
     }
-  
+    /* Definisco lo stile del bordo di ciascuna sezione dei contenuti 
+    per raggruppare titolo, testo, immagine e immagini del footer
+    Qesta proprietà viene ridefinita solo su schermi pù piccoli max 767px.
+    Nei dispositivi dektop più grandi, questo raggruppamento non è necessario 
+    perch il testo viene scritto a fianco della immagine*/
+    .bordo-sezione {
+      border: 0.01px solid green; /* Bordo con colore personalizzato */
+      border-radius: 10px;      /* Arrotondamento degli angoli */
+      padding: 15px;           /* Spaziatura interna */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra leggera per un tocco moderno */
+    }
       
     }

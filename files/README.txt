@@ -17,31 +17,47 @@ Il progetto è organizzato nella seguente struttura:
 / ─ index.html
   └ /css
       └ index.css
-      └ articoli.css
+      └ contenuti.css
       └ timeline.css
+  └ /js
+      └ contenuti.js
+      └ report.css
   └ /bilanci
-      └ frasi.pdf
       └ 2023.pdf
       └ 2022.pdf
       └ …
 
-
   └ /immagini
-      └ ambiente.jpg
-      └ logo.svg
-      └ modello.jpg
-      └ …
+        /esg 
+            └ ambiente.jpg
+            └ logo.svg
+            └ modello.jpg
+            └ …
+        /contenuti
+            └ ambiente.jpg
+            └ logo.svg
+            └ modello.jpg
+            └ …
 
 index.html: File principale della pagina web.
 REAADME.txt (questo file)
 
 /css/index.css: File di stile per la personalizzazione dell'aspetto grafico generale degli elementi della pagina.
-/css/articoli.css: File di stile per la personalizzazione dell'aspetto grafico dei testi presenti sotto le immagini principali della pagina.
-/css/timeline.css: File di stile per la personalizzazione dell'aspetto grafico della sezione report di sostenibilità.
+/css/contenuti.css: File di stile per la personalizzazione dell'aspetto grafico dei testi presenti sotto le immagini principali della pagina.
+/css/report.css: File di stile per la personalizzazione dell'aspetto grafico della sezione report di sostenibilità.
+
+/js/contenuti.css file che contiene il codice javascript per generare dinamicamente
+                le sezioni dei contenuti centrali 
+                ed i testi e le immagini da disegnare nelle sezioni centrali
+/js/report.css file che contiene il codice javascript per generare dinamicamente la sezione
+                dei bilanci di sostenibilità (DCNF) nei 5 anni
+                ed i testi da inserire accanto ad ogni anno
 
 /bilanci: Cartella contenente i bilanci di sostenibilità in formato PDF ed un file js con i riassunti anno per anno.
 
 /immagini: Cartella contenente immagini utilizzate nella pagina e il logo aziendale
+/immagini/contenuti: Cartella contenente immagini per la sezione dei contenuti
+/immagini/esg: Cartella contenente le immagini degli obiettivi ONU cui si riferiscono i contenuti
 
 Istruzioni per l'Esecuzione
 
